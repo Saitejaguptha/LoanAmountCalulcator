@@ -1,0 +1,58 @@
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #f0f8ff;
+}
+
+.container {
+  background-color: darkcyan;
+  color: aliceblue;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  font-size: 18px;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: #00ffcc;
+  outline: none;
+}
+
+.payments {
+  font-weight: 600;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: lightgreen;
+  color: white;
+  font-size: 15px;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
